@@ -1,7 +1,7 @@
 /*
- Greenfarms Watering System
+ Aruduino Watering System
 
- S.Stier 4/18/2020  V0.0.1
+ S.Stier 4/29/2020  V0.0.2
  
  Note: This sketch is written for an Arduino Mega2560 with an ethernet shield W5100. 
  This arduino will  control 5 solenoid values which control the water to five different
@@ -12,7 +12,7 @@
  will also return the state of the valves and flowmeter in the body of the returned. The 
  body is returned in the form of a JSON.
 
- As a safety measure when 4 gallons of water have been measured in any zone that zone is
+ As a safety measure when 3 gallons of water have been measured in any zone that zone is
  automatically closed to limit the amount of water used.
  
  **************************************************************************************
@@ -150,7 +150,7 @@ void setup() {
     Flow5 = digitalRead(Flowpin5);
     FlowMeter = digitalRead(FlowMeterpin);
    
-    if (gals > 4)  {
+    if (gals > 3)  {
     //closes all the values as a safety
     digitalWrite(ValvePin1, LOW);
     digitalWrite(ValvePin2, LOW);
@@ -192,7 +192,7 @@ void IncrementFlow() {
     windowCount++; //increment window counter (counts/unit time)
     TotalClicks++; //cumulative count for flowmeter
     totalizer++; //cumulative count for totalizer
-    gals = (float)totalizer/1300.00;
+    gals = (float)totalizer/1200.00;
 }
 
 void checkForClient(){

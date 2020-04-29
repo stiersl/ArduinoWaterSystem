@@ -1,0 +1,313 @@
+{
+	"info": {
+		"_postman_id": "4561d6d0-709f-4553-9998-3bc2479aa317",
+		"name": "Arduino Water System API calls",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "192.168.100.11",
+					"host": [
+						"192",
+						"168",
+						"100",
+						"11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Open Valve 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "192.168.100.11/?1",
+					"host": [
+						"192",
+						"168",
+						"100",
+						"11"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "1",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Close Valve 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "192.168.100.11/?A",
+					"host": [
+						"192",
+						"168",
+						"100",
+						"11"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "A",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Open Valve 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "192.168.100.11/?2",
+					"host": [
+						"192",
+						"168",
+						"100",
+						"11"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "2",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Close Valve 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "192.168.100.11/?B",
+					"host": [
+						"192",
+						"168",
+						"100",
+						"11"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "B",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Open Valve 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "192.168.100.11/?3",
+					"host": [
+						"192",
+						"168",
+						"100",
+						"11"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "3",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Close Valve 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "192.168.100.11/?D",
+					"host": [
+						"192",
+						"168",
+						"100",
+						"11"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "D",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Open Valve 4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "192.168.100.11/?4",
+					"host": [
+						"192",
+						"168",
+						"100",
+						"11"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "4",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Close Valve 4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "192.168.100.11/?D",
+					"host": [
+						"192",
+						"168",
+						"100",
+						"11"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "D",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Open Valve 5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "192.168.100.11/?5",
+					"host": [
+						"192",
+						"168",
+						"100",
+						"11"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "5",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Close Valve 5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "192.168.100.11/?E",
+					"host": [
+						"192",
+						"168",
+						"100",
+						"11"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "E",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Close All Valves",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "192.168.100.11/?F",
+					"host": [
+						"192",
+						"168",
+						"100",
+						"11"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "F",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
